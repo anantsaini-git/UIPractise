@@ -3,14 +3,113 @@
 <head>
     <meta charset="UTF-8">
     <title>Hello World Example</title>
+
+    <style>
+
+        .class1 {
+            background-color: tomato;
+            color: white;
+            border: 2px solid black;
+            margin: 20px;
+            padding: 20px;
+        }
+
+        th, td {
+            border-style: solid;
+            border-color: #96D4D4;
+        }
+
+        #myHeader {
+            background-color: lightblue;
+            color: black;
+            padding: 40px;
+            text-align: center;
+        }
+
+
+    </style>
 </head>
 <body>
+Hello World
+
+<a href="#myHeader">Jump to my Header</a>
 <h1>Heading 1</h1>
 <h2>Heading 2</h2>
 <h3>Heading 3</h3>
 <h4>Heading 4</h4>
 <h5>Heading 5</h5>
 
-Hello World
+<p>This is a paragraph.</p>
+<a href="https://www.google.com">Link example</a>
+<br>
+
+<form action="HelloWorld.html" method="get">
+    <label for="fname">First name:</label>
+    <input type="text" id="fname" name="fname"><br><br>
+    <label for="lname">Last name:</label>
+    <input type="text" id="lname" name="lname"><br><br>
+    <input type="submit" value="Submit">
+</form>
+
+<table>
+    <tr>
+        <th>Company</th>
+        <th>Contact</th>
+        <th>Country</th>
+    </tr>
+    <tr>
+        <td>Alfreds Futterkiste</td>
+        <td>Maria Anders</td>
+        <td>Germany</td>
+    </tr>
+    <tr>
+        <td>Centro comercial Moctezuma</td>
+        <td>Francisco Chang</td>
+        <td>Mexico</td>
+    </tr>
+</table>
+
+<ul>
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+</ul>
+
+<ol type="I">
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+</ol>
+
+<div style="background-color:powderblue; text-align:center; border: black">
+    <h1>This is a heading</h1>
+    <p>This is a paragraph.</p>
+
+
+</div>
+<span style="background-color:orangered; text-align:center; border: black" >
+    <h1>This is a heading</h1>
+    <p>This is a paragraph.</p>
+</span>
+
+<div class="class1">
+    <h1>This is a heading</h1>
+    <p>This is a paragraph.</p>
+</div>
+
+<div class="class1">
+    <h1>This is a heading</h1>
+    <p>This is a paragraph.</p>
+</div>x
+
+<div id="myHeader">
+    <h1>This is my header</h1>
+    <p>This is a paragraph.</p>
+</div>
+
+
+<img src="../img/image1.jpg" alt="Image alt text" width="50%" height="50%">
+
+
 </body>
 </html>
