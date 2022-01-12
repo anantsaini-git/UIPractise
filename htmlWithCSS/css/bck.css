@@ -4,4 +4,5 @@ div {
 body {
     background-image: url("../../img/image1.jpg");
     background-size: revert;
+
 }

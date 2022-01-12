@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d9f9827c-c28b-432a-9345-f08bc8f66ad0" name="Changes" comment="sample push">
-      <change afterPath="$PROJECT_DIR$/htmlWithCSS/BackgroundExample.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/htmlWithCSS/CSSStylingExample.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/htmlWithCSS/ExternalCSSExample.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/htmlWithCSS/FirstCSSExample.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/htmlWithCSS/css/bck.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/htmlWithCSS/css/h1Format.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/htmlWithCSS/css/style1.css" afterDir="false" />
+    <list default="true" id="d9f9827c-c28b-432a-9345-f08bc8f66ad0" name="Changes" comment="CSS notes document">
+      <change afterPath="$PROJECT_DIR$/htmlOnly/Check.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htmlOnly/XHTMLExample.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htmlWithCSS/BorderMarginPaddingExample.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htmlWithCSS/FormExample.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htmlWithCSS/WebsiteLayout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/htmlOnly/Styling.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlOnly/Styling.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlWithCSS/CSSStylingExample.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlWithCSS/CSSStylingExample.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlWithCSS/css/bck.css" beforeDir="false" afterPath="$PROJECT_DIR$/htmlWithCSS/css/bck.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlWithCSS/css/h1Format.css" beforeDir="false" afterPath="$PROJECT_DIR$/htmlWithCSS/css/h1Format.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlWithCSS/css/style1.css" beforeDir="false" afterPath="$PROJECT_DIR$/htmlWithCSS/css/style1.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +22,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="XHTML File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -41,13 +44,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/htmlWithCSS/css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/htmlWithCSS" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/htmlWithCSS/css" />
       <recent name="$PROJECT_DIR$/htmlWithCSS" />
+      <recent name="$PROJECT_DIR$/htmlWithCSS/css" />
       <recent name="$PROJECT_DIR$/htmlOnly" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -55,29 +59,29 @@
       <recent name="$PROJECT_DIR$/htmlWithJS" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.CSSStylingExample.html">
+  <component name="RunManager" selected="JavaScript Debug.BorderMarginPaddingExample.html">
     <configuration name="BackgroundExample.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/UIPractise/htmlWithCSS/BackgroundExample.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="CSSStylingExample.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/UIPractise/htmlWithCSS/CSSStylingExample.html" useBuiltInWebServerPort="true">
+    <configuration name="BorderMarginPaddingExample.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/UIPractise/htmlWithCSS/BorderMarginPaddingExample.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="Check.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/UIPractise/htmlOnly/Check.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="ExternalCSSExample.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/UIPractise/htmlWithCSS/ExternalCSSExample.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="FirstCSSExample.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/UIPractise/htmlWithCSS/FirstCSSExample.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="GeoLocation.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/UIPractise/htmlWithJS/GeoLocation.html" useBuiltInWebServerPort="true">
+    <configuration name="FormExample.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/UIPractise/htmlWithCSS/FormExample.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.CSSStylingExample.html" />
+        <item itemvalue="JavaScript Debug.BorderMarginPaddingExample.html" />
+        <item itemvalue="JavaScript Debug.FormExample.html" />
         <item itemvalue="JavaScript Debug.BackgroundExample.html" />
         <item itemvalue="JavaScript Debug.ExternalCSSExample.html" />
-        <item itemvalue="JavaScript Debug.FirstCSSExample.html" />
-        <item itemvalue="JavaScript Debug.GeoLocation.html" />
+        <item itemvalue="JavaScript Debug.Check.html" />
       </list>
     </recent_temporary>
   </component>
@@ -92,7 +96,8 @@
       <workItem from="1641719750995" duration="28000" />
       <workItem from="1641719827186" duration="1721000" />
       <workItem from="1641828831799" duration="8002000" />
-      <workItem from="1641916137545" duration="4451000" />
+      <workItem from="1641916137545" duration="4798000" />
+      <workItem from="1641963410892" duration="8720000" />
     </task>
     <task id="LOCAL-00001" summary="sample push">
       <created>1641720029386</created>
@@ -108,7 +113,21 @@
       <option name="project" value="LOCAL" />
       <updated>1641720175648</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="CSS examples">
+      <created>1641928903271</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1641928903271</updated>
+    </task>
+    <task id="LOCAL-00004" summary="CSS notes document">
+      <created>1641929000926</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1641929000926</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +146,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="sample push" />
-    <option name="LAST_COMMIT_MESSAGE" value="sample push" />
+    <MESSAGE value="CSS examples" />
+    <MESSAGE value="CSS notes document" />
+    <option name="LAST_COMMIT_MESSAGE" value="CSS notes document" />
   </component>
 </project>
