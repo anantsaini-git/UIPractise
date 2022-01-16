@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Variable Example</title>
+</head>
+<body>
+
+<p id = "intVar"></p>
+
+<p id = "StringVar"></p>
+<p id = "undefinedVar"></p>
+<p id = "undefinedlet"></p>
+<p id = "undefinedconst"></p>
+
+<script type="text/javascript">
+    var a = 1;
+    var b = 2;
+
+    var c = "1"
+    var d = "2";
+
+    var e;
+
+    let f;
+    const g = 0;
+
+    document.getElementById("intVar").textContent = (a + b);
+    document.getElementById("StringVar").textContent = (c + d);
+    document.getElementById("undefinedVar").textContent = e;
+    document.getElementById("undefinedlet").textContent = f;
+
+    document.getElementById("undefinedconst").textContent = g;
+    console.log("var e = " + e);
+    console.log("let f = " + f);
+</script>
+</body>
+</html>

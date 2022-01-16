@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Variable Example</title>
+    <script type="text/javascript">
+        var a = 1; //global variable
+        document.write("Variable value: " + a);
+
+        var greeter = "hey hi";
+        function addTenToNumber() {
+            //if(a < 10) {
+                a = a +10;
+                //document.write("New Variable value: " + a);
+                document.getElementById("NewGlobalValue").textContent= "New Global Variable value: " + a;
+            //}
+        }
+
+        function addTenToBlockVariable() {
+            var b = a + 10;
+            document.getElementById("NewLocalValue").textContent= "New Local Variable value: " + b;
+        }
+
+        function greet() {
+            var times = 4;
+
+            if (times > 3) {
+                var greeter = "say Hello instead";
+            }
+            console.log(greeter); // "say Hello instead"
+        }
+        function greetAgain() {
+            console.log(greeter); // "say Hello instead"
+
+        }
+    </script>
+
+</head>
+<body>
+<button onclick="addTenToNumber()">Add 10 to Global</button>
+<p id="NewGlobalValue">New global variable value will appear here</p>
+
+<button onclick="addTenToBlockVariable()">Add 10 to Local</button>
+<p id="NewLocalValue">New local variable value will appear here</p>
+
+<button onclick="greet()">Greet</button>
+<button onclick="greetAgain()">Greet Again</button>
+
+</body>
+</html>

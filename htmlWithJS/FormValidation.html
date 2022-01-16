@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script>
+        document.getElementById("ErrorLabel").innerText = "";
+        function validateform(){
+            var name=document.myform.name.value;
+            var password=document.myform.password.value;
+
+
+            if (name==null || name==""){
+                alert("Name can't be blank");
+                return false;
+            }else if(password.length<6){
+                // alert("Password must be at least 6 characters long.");
+                document.getElementById("ErrorLabel").innerText = "Password validation failed!!!";
+                return false;
+            }
+        }
+    </script>
+</head>
+<body>
+<form name="myform" method="post" action="Success.html" onsubmit="return validateform()" >
+    Name: <input type="text" name="name"><br/>
+    Password: <input type="password" name="password"><br/>
+    <label id = "ErrorLabel" style="background-color: red"></label>
+    <input type="submit" value="register">
+</form>
+</body>
+</html>
+
